@@ -9,5 +9,5 @@ console.log(play)
 play.addEventListener('click', () => {
   video.play();
   video.setAttribute('controls', 'controls');
-  play.classList.add('.about__play--hidden');
+  play.classList.add('about__play--hidden');
 })
